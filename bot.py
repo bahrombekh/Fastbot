@@ -675,9 +675,9 @@ def main():
 👑 Admin: @Rustamov_v1
 🚀 Ready to rock!
     """)
-application.run_polling()
-
-if __name__ == "__main__":
-    main()
+    if __name__ == "__main__":
+    app = build_app()
+    print("🤖 Bot ishga tushdi...")
+    asyncio.run(app.run_polling())
     
     
