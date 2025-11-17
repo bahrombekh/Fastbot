@@ -675,7 +675,7 @@ def main():
 👑 Admin: @Rustamov_v1
 🚀 Ready to rock!
     """)
-    application.run_polling()
+application.run_polling()
 
 if __name__ == "__main__":
     main()
